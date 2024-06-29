@@ -22,13 +22,13 @@ classDiagram
     Iphone : -String url
     class AparelhoTelefonico{
       <<interface>>
-      +ligar()
+      +ligar(String numero)
       +atender()
       +iniciarCorreioVoz()
     }
     class NavegadorInternet{
       <<interface>>
-      +exibirPagina()
+      +exibirPagina(String url)
       +adicionarNovaAba()
       +atualizarPagina()
     }
@@ -36,6 +36,6 @@ classDiagram
       <<interface>>
       +tocar()
       +pausar()
-      +selecionarMusica()
+      +selecionarMusica(String musica)
     }
 ```
